@@ -1,24 +1,19 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const htmlR = require('./routes/html-r');
+const apiR = require('./routes/api-r');
 
 const app = express();
+
+app.use('/', htmlR);
+app.use('/', apiR);
 
 //body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //routes-------------------------------------------
-
-//main index page
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '/public/index.html'));
-});
-
-//notes page
-app.get('/notes', function (req, res) {
-  res.sendFile(path.join(__dirname, '/public/notes.html'));
-});
 
 //send the db.json data on notes page
 app.get('/notes', function (req, res) {
