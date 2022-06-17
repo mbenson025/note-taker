@@ -25,6 +25,12 @@ app.get('/notes', function (req, res) {
   res.sendFile(path.join(__dirname, 'db/db.json'));
 });
 
+//post notes from user/log object
+app.post('/api/notes', (req, res) => {
+  console.log(req.body);
+  res.json(req.body);
+});
+
 //routes end----------------------------------------
 
 //set a static folder
