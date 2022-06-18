@@ -6,6 +6,8 @@
 
 <br>
 
+[Deployed Heroku App](https://note-taker-mbenson.herokuapp.com/)
+
 ## Table of Contents
 
 - [Description](#description)
@@ -23,6 +25,8 @@
 Application designed to write, save and delete notes dynamically. Notes are stored on a [Heroku](https://www.heroku.com/) server.
 
 ## Installation
+
+Click on the link to the [Heroku app](https://note-taker-mbenson.herokuapp.com/) to view in browser.
 
 ## Usage
 
