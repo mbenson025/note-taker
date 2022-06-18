@@ -9,15 +9,14 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-app.use('/', htmlR);
-app.use('/api', apiR);
-
 //body parser middleware
-app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 //set a static folder
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(express.static('public'));
+
+app.use('/', htmlR);
+app.use('/api', apiR);
 
 app.listen(PORT, () => console.log(`server started on port ${PORT}`));
