@@ -14,7 +14,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
-- [Tests](#tests)
+- [Technologies Used](#technologies-used)
 - [Questions](#questions)
 - [License](#license)
 
@@ -30,9 +30,21 @@ Click on the link to the [Heroku app](https://note-taker-mbenson.herokuapp.com/)
 
 ## Usage
 
+Enter notes and click the save icon to retain your details. The red grabage symbol next to each note is used to remove them.
+
 ## Demo
 
-## Tests
+<br>
+
+<img src="public/assets/img/notetakerdemo.gif" alt="Demo of application" title="App Demo">
+
+<br>
+
+## Technologies Used
+
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [uuid](https://www.npmjs.com/package/uuid)
 
 ## Questions
 
