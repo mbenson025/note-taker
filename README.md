@@ -20,6 +20,8 @@
 
 ## Description
 
+Application designed to write, save and delete notes dynamically. Notes are stored on a [Heroku](https://www.heroku.com/) server.
+
 ## Installation
 
 ## Usage
