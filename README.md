@@ -30,11 +30,15 @@ Click on the link to the [Heroku app](https://note-taker-mbenson.herokuapp.com/)
 
 ## Usage
 
-Enter notes and click the save icon to retain your details. The red grabage symbol next to each note is used to remove them.
+Enter notes and click the save icon to retain your details. The red garbage symbol next to each note is used to remove them.
 
 ## Demo
 
+[Full Video Demo](https://drive.google.com/file/d/19mztXJHa4n5WBRp4jkTFvzIqPWBvBLQM/view)
+
 <br>
+
+Demo gif:
 
 <img src="public/assets/img/notetakerdemo.gif" alt="Demo of application" title="App Demo">
 
